@@ -99,3 +99,4 @@
 /Users/ayushkumarjha/RiderProjects/EmailApp/EmailApp/obj/Debug/net9.0/EmailApp.pdb
 /Users/ayushkumarjha/RiderProjects/EmailApp/EmailApp/obj/Debug/net9.0/EmailApp.genruntimeconfig.cache
 /Users/ayushkumarjha/RiderProjects/EmailApp/EmailApp/obj/Debug/net9.0/ref/EmailApp.dll
+/Users/ayushkumarjha/RiderProjects/EmailApp/EmailApp/obj/Debug/net9.0/EmailApp.sourcelink.json

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmailApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd7f13ebf80e5b29fc2e585280e3f0e02f8ba97c")]
 [assembly: System.Reflection.AssemblyProductAttribute("EmailApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EmailApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
