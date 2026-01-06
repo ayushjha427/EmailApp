@@ -1,0 +1,24 @@
+@model EmailCommunicator.Models.EmailModel
+
+<h2>📤 Send Email</h2>
+
+@if (ViewBag.Msg != null)
+{
+    <p style="color:green">@ViewBag.Msg</p>
+}
+
+<form method="post">
+    To:<br />
+    <input name="To" required /><br /><br />
+
+    Subject:<br />
+    <input name="Subject" required /><br /><br />
+
+    Message:<br />
+    <textarea name="Body" rows="6"></textarea><br /><br />
+
+    <button type="submit">Send</button>
+</form>
+
+<br />
+<a href="/Email/Inbox">📥 Inbox</a>

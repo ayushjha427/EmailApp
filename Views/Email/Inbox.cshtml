@@ -1,0 +1,29 @@
+@model List<MimeKit.MimeMessage>
+
+<h2>📥 Inbox</h2>
+
+<a href="/Email/Send">➕ Compose</a>
+<hr />
+
+<table border="1" cellpadding="8">
+    <tr>
+        <th>From</th>
+        <th>Subject</th>
+        <th>Date</th>
+        <th>Action</th>
+    </tr>
+
+    @foreach (var mail in Model)
+    {
+        <tr>
+            <td>@mail.From</td>
+            <td>@mail.Subject</td>
+            <td>@mail.Date.LocalDateTime</td>
+            <td>
+                <a href="/Email/Reply?to=@mail.From.Mailboxes.First().Address&subject=@mail.Subject">
+                    Reply
+                </a>
+            </td>
+        </tr>
+    }
+</table>

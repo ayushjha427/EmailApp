@@ -1,0 +1,19 @@
+@model EmailCommunicator.Models.EmailModel
+
+<h2>↩ Reply</h2>
+
+<form method="post" action="/Email/Send">
+    To:<br />
+    <input name="To" value="@Model.To" readonly /><br /><br />
+
+    Subject:<br />
+    <input name="Subject" value="@Model.Subject" /><br /><br />
+
+    Message:<br />
+    <textarea name="Body" rows="6"></textarea><br /><br />
+
+    <button type="submit">Send Reply</button>
+</form>
+
+<br />
+<a href="/Email/Inbox">⬅ Back</a>
